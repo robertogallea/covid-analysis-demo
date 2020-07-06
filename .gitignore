@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+figures/
+*.csv
+*.sqlite
+*.cache
+*.txt
+main.py

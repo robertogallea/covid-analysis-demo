@@ -1,0 +1,28 @@
+{
+    "available_repository_types" : {
+        "api": "ApiCovidRepository",
+        "dummy" : "DummyCovidRepository",
+        "storage": "StorageCovidRepository",
+        "sqlite": "SqliteCovidRepository"
+    },
+
+    "api": {
+        "baseurl": "https://api.covid19api.com/summary"
+    },
+
+    "dummy": {
+
+    },
+
+    "storage": {
+        "filename": "country_summaries.csv"
+    },
+
+    "sqlite": {
+        "filename": "db.sqlite"
+    },
+
+    "classification_results_file": "clustering_results.txt",
+
+    "plot_destination_folder": "./figures/"
+}
